@@ -1,0 +1,86 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-size: contain;
+	background-position: center;
+}
+.editProfile{
+	margin: -176px;
+	border: solid;
+	border-width: 2rem;
+	border-color: #fff;
+	width: 400px;
+	height: 600px;
+	left: 55%;
+	position: relative;
+	transform: translate(-30%, 30%);
+	background-color: #fff;
+	box-shadow: 0 0 15px #fff;
+}
+h1{
+	margin: 0;
+	border-bottom: 3px solid #ff4500;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 28px;
+}
+.editProfile label{
+	margin-bottom: 10px;
+	padding: 0;
+}
+.editProfile input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.editProfile input[type="text"], input[type="password"], input[type="tel"], input[type = "date"], input[type="email"] {
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #ff4500;
+	font-size: 16px;
+}
+
+.editProfile input[id="confirm"]{
+	width: 49%;
+	border: none;
+	outline: none;
+	height: 50px;
+	background: #ff4500;
+	color: #fff;
+	font-size: 18px;
+}
+
+.editProfile input[id="cancel"]{
+	width: 49%;
+	border: 3px solid #ff4500;
+	height: 50px;
+	background: #ffffff;
+	color: #ff4500;
+	font-size: 18px;
+}
+
+
+.editProfile img{
+	margin-top: 50px;
+	margin-left: 47px;
+	border:0px solid;
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	
+}
+
+.editProfile p{
+	text-decoration: none;
+	text-align: center;
+	font-size: 15px;
+	line-height: 20px;
+}
+.editProfile a{
+	text-align: center;
+	font-size: 15px;
+	line-height: 20px;
+	color: #ff4500;
+}

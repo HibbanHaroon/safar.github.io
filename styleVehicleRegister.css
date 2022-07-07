@@ -1,0 +1,97 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(backgroundDriver.jpeg);
+  background-size: contain;
+  background-position: center;
+}
+.vehicleRegister{
+  margin: -176px;
+  border: solid;
+  border-width: 2rem;
+  border-color: #fff;
+  width: 400px;
+  height: 500px;
+  left: 55%;
+  position: relative;
+  transform: translate(-30%, 45%);
+  background-color: #fff;
+  box-shadow: 0 0 15px #fff;
+}
+h2{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 28px;
+}
+.vehicleRegister label{
+  margin-bottom: 10px;
+  padding: 0;
+}
+.vehicleRegister input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.vehicleRegister input[type="text"], input[type="password"], input[type="tel"], input[type = "date"], input[type="email"] {
+  border: none;
+  border-bottom: 1px solid #000;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #00c07f;
+  font-size: 16px;
+}
+.vehicleRegister button{
+  width: 100%;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  height: 40px;
+  background: #00c07f;
+  color: #fff;
+  font-size: 18px;
+}
+
+.vehicleRegister p{
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  line-height: 20px;
+}
+.dropbtn {
+  background-color: #ff4500;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  outline:  none;
+  display: none;
+  border: none;
+  position: absolute;
+  background-color: #00c07f;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content input {
+  background-color: #00c07f;
+  height: 30px;
+  color: black;
+  
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content input:hover {background-color: #00e096;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #007a52;}

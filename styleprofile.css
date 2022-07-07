@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-size: contain;
+	background-position: center;
+	margin-bottom: 30px;
+}
+.profile{
+	margin: -176px;
+	border: solid;
+	border-width: 2rem;
+	border-color: #fff;
+	width: 400px;
+	height: 600px;
+	left: 55%;
+	position: relative;
+	transform: translate(-30%, 30%);
+	background-color: #fff;
+	box-shadow: 0 0 15px #fff;
+	margin-bottom: 30px;
+}
+h1{
+	margin: 0;
+	border-bottom: 3px solid #ff4500;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 28px;
+}
+.profile label{
+	margin-bottom: 10px;
+	padding: 0;
+}
+.profile input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.profile input[type="text"], input[type="password"], input[type="tel"], input[type = "date"], input[type="email"] {
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #ff4500;
+	font-size: 16px;
+}
+.profile input[type="submit"]{
+	width: 100%;
+	border: none;
+	outline: none;
+	height: 50px;
+	background: #ff4500;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+.profile img{
+	margin-top: 50px;
+	margin-left: 47px;
+	border:0px solid;
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	
+}
+
+.profile p{
+	text-decoration: none;
+	text-align: center;
+	font-size: 15px;
+	line-height: 20px;
+}
+.a{
+	border: 1px solid #000;
+	width: 100%;
+	border: none;
+	outline: none;
+	height: 50px;
+	background: #ff4500;
+	color: #fff;
+	font-size: 18px;
+}

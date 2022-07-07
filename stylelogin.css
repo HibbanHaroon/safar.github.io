@@ -1,0 +1,65 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(background.jpeg);
+	background-size: contain;
+	background-position: center;
+}
+.login{
+	margin: -86px;
+	border: solid;
+	border-width: 2rem;
+	border-color: #fff;
+	width: 320px;
+	height: 420px;
+	left: 55%;
+	position: relative;
+	transform: translate(-50%, 40%);
+	background-color: #fff;
+	box-shadow: 0 0 15px #fff;
+}
+h2{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 28px;
+}
+.login label{
+	margin-bottom: 10px;
+	padding: 0;
+}
+.login input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.login input[type="password"], input[type="tel"]{
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #ff4500;
+	font-size: 16px;
+}
+.login button{
+	width: 100%;
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #ff4500;
+	color: #fff;
+	font-size: 18px;
+}
+
+.login p{
+	text-decoration: none;
+	text-align: center;
+	font-size: 15px;
+	line-height: 20px;
+}
+.login a{
+	text-align: center;
+	font-size: 15px;
+	line-height: 20px;
+	color: #ff4500;
+}
